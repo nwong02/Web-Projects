@@ -1,0 +1,7 @@
+@media only screen and (min-width: 768px) { 
+    body {
+        -webkit-columns: 2 300px;
+        -moz-columns: 2 300px;
+        columns: 2 200px;
+    }
+}
