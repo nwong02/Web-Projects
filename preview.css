@@ -1,7 +1,30 @@
-@media only screen and (min-width: 768px) { 
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+ @media only screen and (max-width: 720px) { 
     body {
-        -webkit-columns: 2 300px;
-        -moz-columns: 2 300px;
+        -webkit-columns: 2 720px;
+        -moz-columns: 2 720px;
         columns: 2 200px;
     }
+    img {
+        max-width: 80%;
+        height: auto;
+        width: 700px
+    }
+}
+
+.flex-left {
+    width: 33%;
+}
+
+.flex-right {
+    width: 67%;
+    margin: 5%;
+}
+
+span {
+    display: inline-block;
 }
