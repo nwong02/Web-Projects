@@ -23,6 +23,7 @@
 
 span {
     display: inline-flex;
+    margin-top: 10px;
 }
 
 img{
@@ -36,22 +37,28 @@ img.flex-left {
 
 img.writer {
     border-radius: 200px;
-    width: 100px;
+    width: 75px;
     object-fit: scale-down;
 }
 
 h3 {
     position: relative;
     margin: -5%;
+    font-style: italic;
+    opacity: 50%;
 }
 
 span.text{
     display: inline;
-    margin-top: 10%;
+    margin-top: 15%;
     margin-left: 5%;
 }
 
 p {
     display: absolute;
     align-items: flex-end;
+}
+
+.sharing:hover {
+    color: lightskyblue;
 }
