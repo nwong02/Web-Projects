@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- displays site properly based on user's device -->
 
+  <link rel='stylesheet' href='preview.css'>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Article preview component</title>
@@ -16,18 +17,31 @@
 </head>
 <body>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+<div class='row'>
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+    <div class='column column-1'>
+        <img class='flex-left' src='/images/drawers.jpg'>
+    </div>
 
-  Michelle Appleton
-  28 Jun 2020
+    <div class='column column-2'>
+        Shift the overall look and feel by adding these wonderful 
+        touches to furniture in your home
 
-  Share
-  
+        Ever been in a room and felt like something was missing? Perhaps 
+        it felt slightly bare and uninviting. I’ve got some simple tips 
+        to help you make any room feel complete.
+
+        <span>
+            <div class='author'>
+                Michelle Appleton
+                28 Jun 2020
+            </div>
+        </span>
+
+        Share
+    </div>
+</div>
+
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
