@@ -1,18 +1,3 @@
-@media (min-width: 1160px){
-    .flex-container {
-        display: flex;  
-    }
-}
-  
-.main-content {
-  flex: 2;  
-}
-
-.sidebar {
-  flex: 2 0 300px;
-  padding-top: 2rem;
-}
-
-img.flex-left {
-    max-width: 100%
+.flex-container {
+    flex-wrap: wrap;
 }
