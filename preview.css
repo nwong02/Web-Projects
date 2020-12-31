@@ -1,9 +1,7 @@
-* {
-    box-sizing: border-box;
-}
+
 
 body {
-    padding: 5rem;
+    padding: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -35,33 +33,17 @@ img {
 }
 
 img.author {
-    width: 75px;
+    max-width: 100px;
     border-radius: 50px;
-    display: inline;
-    line-height: 100px;
-}
-
-.aside {
-    padding: 15px;
-    text-align: center;
-}
-
-.container {
     display: flex;
-    justify-content: left;
 }
 
 h1 {
     padding-top: 2rem;
 }
 
-
-span.img {
-    display: inline;
-}
-
-span p {
-    display: inline;
+span {
+    display: flex;
 }
 
 .row {
@@ -69,12 +51,29 @@ span p {
     flex-wrap: wrap;
 }
 
-.date {
-    font-weight: bold;
-    opacity: 40%;
-    object-position: bottom;
+.aside {
+    padding: 15px;
+    text-align: center;
 }
 
-.container {
+.aside img {
+    margin-top: 15px;
+}
+
+.author {
+    justify-content: left;
     display: flex;
+}
+
+.details {
+    justify-content: center;
+    line-height: 5px;
+    padding: 20px;
+}
+
+.share {
+    display: flex;
+    justify-content: right;
+    padding-left: 50%;
+    position: relative;
 }
