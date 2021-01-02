@@ -1,5 +1,3 @@
-
-
 body {
     padding: 1rem;
 }
@@ -75,5 +73,22 @@ span {
     display: flex;
     justify-content: right;
     padding-left: 50%;
-    position: relative;
+    position: absolute;
+    padding-top: 10px;
+}
+
+.share p {
+    padding-top: 15px;
+    padding-left: 5rem;
+    justify-content: right;
+    display: flex;
+}
+
+.date {
+    font-weight: bold;
+    opacity: 40%;
+}
+
+.attribution {
+    padding-top: 5rem;
 }
